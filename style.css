@@ -300,7 +300,7 @@
 
 
    .services h2{
-   color: white;
+   color: rgb(0, 0, 0);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -348,6 +348,7 @@
 
 
    .service-info h4{
+    color: #ffffff;
     font-size: 4rem;
     margin: 2rem 0 ;
     font-weight: 800;
@@ -356,7 +357,7 @@
 
 
    .service-info p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.5;
    }
@@ -364,6 +365,8 @@
 
    .service-info i{
     font-size: 8rem;
+    
+   color: white;
    }
 
 
@@ -488,9 +491,9 @@
   .input-group-2 textarea {
     width: 100%;
     padding: 10px;
-    border: 2px solid var(--main-color);
+    border: 2px solid #ff5900;
     border-radius: 5px;
-    background-color: var(--second-bg-color);
+    background-color: rgb(255, 255, 255);
     color: var(--text-color);
     resize: none;
   }
@@ -507,7 +510,7 @@
   }
   
   .input-group-2 .btn:hover {
-    background-color: darken(var(--main-color), 10%);
+    background-color:black;
   }
   
 
@@ -580,6 +583,7 @@
       border-bottom-left-radius: 2rem;
       border-left: 2px solid var(--main-color);
       border-bottom: 2px solid var(--main-color);
+      display: none ;
     }
     .navbar a{
       display: block;
@@ -599,7 +603,7 @@
       flex-direction: column-reverse;
       margin: 5rem 0;
       gap: 5rem;
-    }
+    } 
     .home-content{
       align-items: center;
       text-align: center;
@@ -614,7 +618,7 @@
     }
     .about h2 {
       text-align: center;
-      margin: 2rem;
+      margin: 2rem 0;
 
     }
 
