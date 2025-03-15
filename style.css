@@ -378,6 +378,14 @@
     text-align: center;
     padding: 10rem 10%;
   }
+
+
+  .projects h2{
+margin-top: -50px;
+color: #000000;
+
+
+  }
   
   .project-container {
     display: grid;
@@ -412,6 +420,7 @@
     margin-top: 1rem;
     font-weight: lighter;
     color: white;
+    line-height: 1.5;
   }
   
   .project-card .btn {
@@ -427,6 +436,7 @@
   
   .project-card .btn:hover {
     background: #ff1d15;
+    color: #000000;
   }
   .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
