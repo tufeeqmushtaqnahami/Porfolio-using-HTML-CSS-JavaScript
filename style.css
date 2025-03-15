@@ -357,14 +357,14 @@
 
 
    .service-info p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 1.5;
    }
 
 
    .service-info i{
-    font-size: 8rem;
+    font-size: 5rem;
     
    color: white;
    }
@@ -413,6 +413,7 @@ color: #000000;
   .project-card h3 {
     font-size: 2rem;
     margin-top: 1rem;
+    color: white;
   }
   
   .project-card p {
@@ -574,7 +575,12 @@ color: #000000;
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
+    
 
+  }
+
+  .footer .copyright{
+    color: white;
   }
 
 
@@ -639,4 +645,5 @@ color: #000000;
     .contact form{
       flex-direction: column;
     }
+
   }
