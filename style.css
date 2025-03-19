@@ -4,15 +4,19 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
     font-weight: lighter;
   }
   :root {
     --bg-color: #ffffff;
     --second-bg-color: #101010;
     --text-color: rgb(0, 0, 0);
-    --main-color: #ea580c;
+    --main-color: #D00000;
   }
+
+
+  
   html {
     font-size: 60%;
     overflow-x: hidden;
@@ -61,8 +65,8 @@
 
   span{
     background: linear-gradient(270deg,
-    #df8908 10%,
-    #ff1d15 100%);
+     #ff4d4d 10%,  /* Light red */
+    #b30000 100%  /* Dark red */);
     background-clip: text;
     color: transparent;
   }
@@ -89,8 +93,8 @@
     padding: 1rem 2rem;
     border-radius: 3rem;
     background: linear-gradient(270deg,
-    #df8908 10%,
-    #ff1d15 100%);
+    #ff4d4d 10%,  /* Light red */
+    #b30000 100%  /* Dark red */);
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -261,6 +265,7 @@
 
 
    .about-content p{
+    margin-top: 30px;
    font-size: 1.8rem;
    color: white;
 
@@ -330,8 +335,8 @@
    
    .service-box:hover{
     background-color: var(--second-bg-color);
-    color: var(--main-color);
-    border: 5px solid var(--main-color);
+    color:white;
+    border: 5px solid transparent;
     transform: scale(1.03);
    }
 
@@ -361,6 +366,9 @@
     font-weight: 600;
     line-height: 1.5;
    }
+
+
+   
 
 
    .service-info i{
